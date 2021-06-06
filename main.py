@@ -5,10 +5,11 @@
 from art import *
 
 tprint("SEREGA", font="*")
-x = input("Введите первое число")
-y = input("Введите второе число")
+x = int(input("Введите первое число - "))
+y = int(input("Введите второе число - "))
 
 print("Cумма - ",x + y)
 print("Деление - ",x // y)
 print("Остаток - ",x % y)
 print("Степень - ",x ** y)
+
