@@ -9,6 +9,6 @@ x = 24
 y = 16
 print("Числа ",x, y, sep=" - ")
 print("Cумма - ",x + y)
-print("Деление - ",x / y)
+print("Деление - ",x // y)
 print("Остаток - ",x % y)
 print("Степень - ",x ** y)
