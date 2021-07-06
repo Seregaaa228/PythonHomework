@@ -23,7 +23,7 @@ elif len(x) < 3:
 
 # Задача 3
 initial_list = ["Mike | 83, 90, 1, 20", "Jane | 45, 46, 31, 33"]
-
+listMarks = []
 for element in initial_list:
     splitted_element = element.split(" | ")
     marks_string = splitted_element[1]
@@ -31,8 +31,10 @@ for element in initial_list:
     results = list(map(int, marks_list))
     average = sum(results) / len(marks_list)
     average_str = str(average)
-    mark_average = [splitted_element[0] + " |", average_str]
-    print(mark_average)
+    mark_average = [splitted_element[0] + " | " + average_str]
+    listMarks += mark_average
+print(listMarks)
+
 # Задача 2
 import collections
 
