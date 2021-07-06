@@ -6,7 +6,7 @@ if len(x) % 2 == 0:
     del (X[int(len(X) / 2 - 1)]), (X[int(len(X) / 2)])
     x = ''.join(X)
     print(x)
-elif len(x) % 2 > 3:
+elif len(x) % 2 >= 1:
     X = list(x)
     del (X[int(len(X) / 2 + 1)]), (X[int(len(X) / 2)]), (X[int(len(X) / 2)])
     x = ''.join(X)
